@@ -10,8 +10,11 @@ console.log('num of socks:', socks);
 
 if (shoes === '3' || shoes === '4') {
   alert('yay! you have a lot of shoes!');
-} 
+}
 
+if (shoes === '3' && socks.toLowerCase() === 'none') {
+  alert('well alrighty then.');
+}
 
 var difficulty = prompt('what level of difficulty are yo used to?');
 console.log('my users answer', answer);
