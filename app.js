@@ -1,7 +1,12 @@
+'use strict'
 
+var shoes = prompt('how many shoes do you have?');
+console.log('num of shoes', shoes);
 
-var user = prompt('time to play code cracker. what is your name?');
-console.log(user);
+var word = 'something'
+
+var socks = prompt('how many socks do you have?');
+console.log('num of socks:', socks);
 
 alert('Hi there ' + user + ', I\'m going to ask you a question.');
 var answer = prompt(user + ', this is a yes/no question.  Please answer with Y or N.  Do you love coding?');
